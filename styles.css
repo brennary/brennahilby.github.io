@@ -23,10 +23,20 @@ body {
   color: #111;
 }
 
-header h1 {
+header h1 a {
   font-size: 1.9rem;
   margin-bottom: 0.2rem;
+  text-decoration: none;
+  color: inherit;          
+  cursor: pointer;         
 }
+header h1 a:hover,
+header h1 a:focus,
+header h1 a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 header p {
   margin-bottom: 1rem;
